@@ -1,0 +1,45 @@
+.container{
+    margin: 50px 0;
+}
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  div.container {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  h2{
+      color: rgba(3, 23, 26, 0.575);
+  }
+  
+
+  img{
+      margin: 0;
+      width: 90px ;
+  }
+
+
+
+.card{
+    margin: 0 2% !important
+}
+
+.infected{
+    text-decoration-color: rgba(0, 0, 0, 0.19);
+    border-bottom: 10px solid rgba(241, 0, 0, 0.678);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(9, 255, 0, 0.678);
+
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(20, 20, 20, 0.678);
+
+}
