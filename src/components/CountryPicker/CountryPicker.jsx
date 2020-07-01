@@ -22,9 +22,12 @@ const Countries = ({ handleCountryChange }) => {
       <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
         <option value="">Global</option>
 
-        {countries.map((country, i) => 
+        {countries.splice(84,1)}
+        
+        {
+        countries.map((country, i) => 
          <option key={i} value={country}>{country}</option>)
-        } (countries.set('Israel','Palestine')) 
+        } 
        </NativeSelect>
     </FormControl>
   );
