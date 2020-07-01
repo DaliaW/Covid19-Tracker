@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Corona Tracker",
+  "name": "Corona Tracker",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://cdn2.iconfinder.com/data/icons/covied-19-line-two-color/154/Corona_corona_virus_covid19_virus-128.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://cdn2.iconfinder.com/data/icons/covied-19-line-two-color/154/Corona_corona_virus_covid19_virus-128.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://cdn2.iconfinder.com/data/icons/covied-19-line-two-color/154/Corona_corona_virus_covid19_virus-128.png",
       "type": "image/png",
       "sizes": "512x512"
     }

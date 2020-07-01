@@ -1,0 +1,13 @@
+.formControl {
+    width: 25%;
+    margin-bottom: 30px !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .formControl{
+    size: 25in;
+    display: flex;
+  }

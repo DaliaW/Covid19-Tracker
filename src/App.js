@@ -1,36 +1,44 @@
 import React from 'react';
-// import Cards from './components/Cards/Cards';
-// import Chart from './components/Chart/Chart';
-// import CountryPicker from './components/CountryPicker/CountryPicker';
-//this is so much imports and what if we've other more imports as well
-// so there's an alternative which is importinfg everything at once by specifying the elemnts we wanna import like below:
-import{ Cards, Chart, CountryPicker } from './components';
-//this will not work right away we need to do sth --> which is index .js
+
+import { Cards, CountryPicker, Chart } from './components';
+import { fetchData } from './api/';
 import styles from './App.module.css';
-//to call function inside app.js we need to import it
-import { fetchData } from './api'
 
-class App extends React.Component{
+class App extends React.Component {
+  state = {
+    data: {},
+    country: '',
+  }
 
-    state={
-        data: {},
-    }
+  async componentDidMount() {
+    const data = await fetchData();
 
-    async componentDidMount(){
-        const fetchedData = await fetchData();
+    this.setState({ data });
+  }
 
-        this.setState({data: fetchedData})
-    }
+  handleCountryChange = async (country) => {
+    const data = await fetchData(country);
 
-    render(){
-        const { data } = this.state;
-        return(
-            <div className = {styles.container}>
-                <Cards data = {data} />
-                <CountryPicker />
-                <Chart />
-            </div>
-        )
-    }
+    this.setState({ data, country: country });
+  }
+
+  render() {
+    const { data, country } = this.state;
+
+    return (
+      <div className={styles.container}>
+      <h1>  <img src="https://cdn2.iconfinder.com/data/icons/covied-19-line-two-color/154/Corona_corona_virus_covid19_virus-128.png" alt="COVID-19"/> Corona Tracker  </h1>
+        <Cards data={data} />
+        <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <Chart data={data} country={country} />
+        
+        <container><h4><div>Designed by: Dalia Walid ... </div>
+        <div> Inspired by: JavaScript Mastery</div></h4>
+        </container> 
+        </div>
+      
+    );
+  }
 }
+
 export default App;

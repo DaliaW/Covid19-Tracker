@@ -68,7 +68,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         </Typography>
 
                         <Typography color="textSecondary" gutterBottom>
-                            Congrats,You did it !!
+                            May you all never catch it again
                         </Typography>
 
 
@@ -85,7 +85,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
 
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>
-                        <img src="https://cdn1.iconfinder.com/data/icons/unilite-shift-religion/60/036_026_religion_angel_saint_soul-512.png" alt="deaths" ></img>
+                        <img src="https://cdn0.iconfinder.com/data/icons/corona-virus-flat-style-1/64/22.corona_virus-512.png" alt="deaths" ></img>
                           <h2>
                           
                                 DEATHS </h2>
