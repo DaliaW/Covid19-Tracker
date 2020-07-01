@@ -2,7 +2,9 @@
 ## Corona Tracker
 
 
-![Annotation 2020-07-01 224403](https://user-images.githubusercontent.com/47950134/86291245-01343d00-bbef-11ea-926f-cdfb0dcdcf87.png)
+
+
+![Annotation 2020-07-01 230235](https://user-images.githubusercontent.com/47950134/86291391-32147200-bbef-11ea-8fe3-1c5e8a670d2e.png)
 
 ![Annotation 2020-07-01 224739](https://user-images.githubusercontent.com/47950134/86289976-ea8ce680-bbec-11ea-83a5-341ad85de5d0.png)
 
